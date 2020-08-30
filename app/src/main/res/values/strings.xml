@@ -16,4 +16,6 @@
     <string name="radio_present">Presente</string>
     <string name="radio_absent">Ausente</string>
     <string name="button_add_guest">Cadastrar</string>
+    <string name="toast_success">Confirmado com Sucesso</string>
+    <string name="toast_fail">Falha ao Cadastrar</string>
 </resources>
