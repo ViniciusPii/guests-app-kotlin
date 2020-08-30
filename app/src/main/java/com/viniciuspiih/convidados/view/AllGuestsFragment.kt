@@ -1,4 +1,4 @@
-package com.viniciuspiih.convidados.ui.home
+package com.viniciuspiih.convidados.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.viniciuspiih.convidados.R
+import com.viniciuspiih.convidados.viewmodel.AllGuestsViewModel
 
 class AllGuestsFragment : Fragment() {
 

@@ -1,13 +1,13 @@
-package com.viniciuspiih.convidados.ui.home
+package com.viniciuspiih.convidados.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AllGuestsViewModel : ViewModel() {
+class AbsentViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Todos"
+        value = "Ausentes"
     }
     val text: LiveData<String> = _text
 }
